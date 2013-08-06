@@ -38,6 +38,7 @@ int main (int argc, const char *argv[])
         /* hash tests */
         thc_addtest (test_hash_init_destroy); 
         thc_addtest (test_hash_put_get);
+        thc_addtest (test_hash_put_get_int_key);
         thc_addtest (test_hash_put_collision);
         thc_addtest (test_hash_del);
     }
